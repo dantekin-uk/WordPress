@@ -520,3 +520,4 @@ if ( ! /iPad|iPod|iPhone/.test( navigator.userAgent ) ) {
 <?php wp_print_scripts( 'language-chooser' ); ?>
 </body>
 </html>
+define('WP_ALLOW_REPAIR', true);
